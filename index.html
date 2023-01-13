@@ -4,34 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>MyCv</title>
 </head>
 <body>
     <header class="header"> 
         <div class="header__logo">
-            <img src="./assets/svg/logo-cv.svg" alt="logo cv">
+            <img class="header__logo-img" src="./assets/svg/logo-cv.svg" alt="logo cv">
+            MyCV
         </div>
         <nav class="header__navigation">
             <ul class="header__list">
-                <li class="header__link"><a href="#skills">Skills</a></li>
-                <li class="header__link"><a href="#projects">Projects</a></li>
-                <li class="header__link"><a href="#works">Works</a></li>
-                <li class="header__link"><a href="#footer">Footer</a></li>
+                <li><a class="header__link" href="#skills">Skills</a></li>
+                <li><a class="header__link" href="#projects">Projects</a></li>
+                <li><a class="header__link" href="#works">Works</a></li>
+                <li><a class="header__link" href="#footer">Contacts</a></li>
             </ul>
         </nav>
     </header>
     <main  class="hero">
         <div class="hero__photo">
-            <img src="./assets/img/photo-cv.jpg" alt="photo cv">
+            <img  class="hero__img" src="./assets/img/photo-cv.jpg" alt="photo cv">
         </div>
-        <div class="hero__contacts"></div>
+        <!-- <div class="hero__contacts"></div> -->
         <div class="hero__about-me">
             <h2 class="hero__title">About me</h2>
+            <p> 
+               Увлеченный Frontend разработчик, имеющий небольшой опыт работы во фрилансе, где разработала несколько сайтов с использованием статичной html верстки, css, javascript. 
+               В основном опыт разработки получаю ставя перед собой задачи и выполняя их.
+               Так же поулчила большой опыт после прохождения обучения в школе рс скул, на курсе по фронтенд разработки.
+               Работала над проектами используя javascript, typescript,  angular, react.
+                Здесь я научилась разбираться в чужом коде, работая над командными проектами, что считаю очень важным навыком,
+                так как хочу работать в команде. 
+                Я ответственный человек и серьезно подхожу к решению поставленных перед собой задач. 
+                "Никогда не сдаваться!" мой лозунг по жизни с какими бы трудностями не пришлось столкнуться.
+                </p>
         </div>
     </main>
-    <section class="skills" id="skills"></section>
-    <section class="projects" id="projects"></section>
-    <section class="works" id="works"></section>
+    <section class="skills" id="skills">
+        <ul class="skills__list">
+            <li class="skills__link">javascript</li>
+            <li class="skills__link">typescript</li>
+            <li class="skills__link">react</li>
+            <li class="skills__link">angular</li>
+            <li class="skills__link">html</li>
+            <li class="skills__link">css</li>
+            <li class="skills__link">scss</li>
+            <li class="skills__link">rxjs</li>
+            <li class="skills__link">ngrx</li>
+            <li class="skills__link">oop</li>
+            <li class="skills__link">rest_api</li>
+            <li class="skills__link">webpack</li>
+            <li class="skills__link">git</li>
+        </ul>                         
+    </section>
+    <section class="projects" id="projects">
+        <ul class="projects__list">
+            <li class="projects__link">Angular. Project management</li>
+            <li class="projects__link">TypeScript. Shelter</li>
+        </ul>
+    </section>
+    <section class="works" id="works">
+        <ul class="works__list">
+            <li class="works__link"></li>
+            <li class="works__link"></li>
+            <li class="works__link"></li>
+        </ul>
+    </section>
     <footer class="footer" id="footer"></footer>
+    <script src="./index.js"></script>
 </body>
 </html>

@@ -1,0 +1,71 @@
+.header {
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: system-ui;
+    &__logo {
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+        font-weight: 900;
+        color: #15286e;
+    }
+    &__logo-img {
+        width: 70px;
+        height: auto;
+    }
+    &__list {
+        display: flex;
+        list-style: none;
+        gap: 25px;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    &__link {
+        color: #15286e;
+        text-decoration: none;
+        position: relative;
+
+        &:after {
+            content: "";
+            width: 0;
+            height: 3px;
+            background-color: #15286e;
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            transition: width 0.5s ease-out;
+        }
+        &:hover:after {
+            width: 100%;
+        }
+    }
+}
+
+.hero {
+    display: flex;
+    max-width: 1280px;
+    gap: 5%;
+    &__photo {
+        width: 350px;
+        }
+    &__img {
+        width: 100%;
+        border-radius: 50%;
+        filter: drop-shadow(2px 4px 6px black);
+    }
+    &__about-me {
+        width: 50%;
+    }
+}
+
+.skills {
+    max-width: 1280px;
+    &__list {
+        display: flex;
+        list-style: none;
+        gap: 3%;
+        flex-wrap: wrap;
+    }
+}
