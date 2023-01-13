@@ -8,70 +8,114 @@
     <title>MyCv</title>
 </head>
 <body>
-    <header class="header"> 
-        <div class="header__logo">
-            <img class="header__logo-img" src="./assets/svg/logo-cv.svg" alt="logo cv">
-            MyCV
+    <header class="header">
+        <div class="header__info">
+            <h1 class="header__title">Anna <br> Zverintseva</h1>
+            <div  class="header__wrapper-contacts">
+                <h2 class="header__title-contacts">Contacts:</h2>
+                <ul class="header__contacts">
+                    <li>phone: 11111111</li>
+                    <li>mail: @mail</li>
+                </ul>
+            </div>
         </div>
-        <nav class="header__navigation">
-            <ul class="header__list">
-                <li><a class="header__link" href="#skills">Skills</a></li>
-                <li><a class="header__link" href="#projects">Projects</a></li>
-                <li><a class="header__link" href="#works">Works</a></li>
-                <li><a class="header__link" href="#footer">Contacts</a></li>
-            </ul>
-        </nav>
+        <div class="header__about-me"> 
+            <span class="header__text">Hi, my name is Anna</span>
+            <br>
+            I am an enthusiastic Frontend developer with little freelance experience, where I have developed several websites using static html layout, css, javascript. 
+            Basically, I get development experience by setting tasks for myself and completing them.
+            I also gained a lot of experience after studying at the RS school, at the frontend development course.
+            Worked on projects using javascript, typescript, angular, react.
+            Here I learned to understand someone else's code while working on team projects, which I consider a very important skill,
+            because I want to work in a team. 
+            I am a responsible person and I am serious about solving the tasks set for myself. 
+            "Never give up!" my slogan for life is no matter what difficulties you have to face.
+            <!-- я увлеченный Frontend разработчик, имеющий небольшой опыт работы во фрилансе, где разработала несколько сайтов с использованием статичной html верстки, css, javascript. 
+            В основном опыт разработки получаю ставя перед собой задачи и выполняя их.
+            Так же поулчила большой опыт после прохождения обучения в школе рс скул, на курсе по фронтенд разработки.
+            Работала над проектами используя javascript, typescript,  angular, react.
+            Здесь я научилась разбираться в чужом коде, работая над командными проектами, что считаю очень важным навыком,
+            так как хочу работать в команде. 
+            Я ответственный человек и серьезно подхожу к решению поставленных перед собой задач. 
+            "Никогда не сдаваться!" мой лозунг по жизни с какими бы трудностями не пришлось столкнуться. -->
+            </div>
     </header>
-    <main  class="hero">
-        <div class="hero__photo">
-            <img  class="hero__img" src="./assets/img/photo-cv.jpg" alt="photo cv">
+    <section class="main">
+        <div class="main__left-block">
+            <div class="skills">
+                <h2 class="skills__title">Skills</h2>
+                <ul class="skills__list">
+                    <li class="skills__link">JavaScript</li>
+                    <li class="skills__link">TypeScript</li>
+                    <li class="skills__link">React</li>
+                    <li class="skills__link">Angular</li>
+                    <li class="skills__link">HTML</li>
+                    <li class="skills__link">CSS</li>
+                    <li class="skills__link">SCSS</li>
+                    <li class="skills__link">RxJs</li>
+                    <li class="skills__link">NgRx</li>
+                    <li class="skills__link">Webpack</li>
+                    <li class="skills__link">GIT</li>
+                    <li class="skills__link">Team Work</li>
+                </ul> 
+            </div> 
+            <div class="education">
+                <h2 class="skills__title">Education</h2>
+                <div class="education__wrapper">
+                    <div>
+                        <h2>RGSU</h2>
+                        <div>finance and credit</div>
+                    </div>
+                    <div>
+                        <h2>Rollings Scopes School</h2>
+                        Angular, September 2022 - December 2022
+                    </div>
+                    <div>
+                        <h2>Rollings Scopes School</h2>
+                        JavaScript/Front-end, March 2022 - September 2022
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="language">
+                <h2 class="language__title">Language</h2>
+                <div>English (B2)</div>
+                <div>Russian native</div>
+            </div>
         </div>
-        <!-- <div class="hero__contacts"></div> -->
-        <div class="hero__about-me">
-            <h2 class="hero__title">About me</h2>
-            <p> 
-               Увлеченный Frontend разработчик, имеющий небольшой опыт работы во фрилансе, где разработала несколько сайтов с использованием статичной html верстки, css, javascript. 
-               В основном опыт разработки получаю ставя перед собой задачи и выполняя их.
-               Так же поулчила большой опыт после прохождения обучения в школе рс скул, на курсе по фронтенд разработки.
-               Работала над проектами используя javascript, typescript,  angular, react.
-                Здесь я научилась разбираться в чужом коде, работая над командными проектами, что считаю очень важным навыком,
-                так как хочу работать в команде. 
-                Я ответственный человек и серьезно подхожу к решению поставленных перед собой задач. 
-                "Никогда не сдаваться!" мой лозунг по жизни с какими бы трудностями не пришлось столкнуться.
-                </p>
+        <div class="main__right-block">
+            <div class="projects">
+                <h2  class="projects__title">Projects</h2>
+                <div class="projects__wrapper">
+                    <div class="projects__project">
+                        <h2  class="title">Project management</h2>
+                        <a href="https://pomakom-rsteam.github.io/project-management-app-team2/">
+                            <img class="projects__img" src="./assets/img/Projectmanagement.jpg" alt="Project management">
+                        </a>
+                        Angular, TypeScritp, Angular Material, Ng-Zorro
+                    </div>
+
+                    <div class="projects__project">
+                        <h2  class="title">Shelter</h2>
+                        <a href="https://laluna93.github.io/Shelter/dist/">
+                            <img class="projects__img" src="./assets/img/shelter.jpg" alt="Project management">
+                        </a>
+                         TypeScritp
+                    </div>
+                    <div class="projects__project">
+                        <h2 class="title">Youtube</h2>
+                        <a href="https://pomakom-rsteam.github.io/project-management-app-team2/">
+                            <img class="projects__img" src="./assets/img/youtube.jpg" alt="Project management">
+                        </a>
+                        Angular, TypeScritp, RXJS, NGRX, YouTube Data Api
+                    </div>
+                 </div>
+                 <div class="projects__git"><a class="projects__link" href="https://github.com/laluna93">My GitHub</a></div>
+            </div>
         </div>
-    </main>
-    <section class="skills" id="skills">
-        <ul class="skills__list">
-            <li class="skills__link">javascript</li>
-            <li class="skills__link">typescript</li>
-            <li class="skills__link">react</li>
-            <li class="skills__link">angular</li>
-            <li class="skills__link">html</li>
-            <li class="skills__link">css</li>
-            <li class="skills__link">scss</li>
-            <li class="skills__link">rxjs</li>
-            <li class="skills__link">ngrx</li>
-            <li class="skills__link">oop</li>
-            <li class="skills__link">rest_api</li>
-            <li class="skills__link">webpack</li>
-            <li class="skills__link">git</li>
-        </ul>                         
     </section>
-    <section class="projects" id="projects">
-        <ul class="projects__list">
-            <li class="projects__link">Angular. Project management</li>
-            <li class="projects__link">TypeScript. Shelter</li>
-        </ul>
-    </section>
-    <section class="works" id="works">
-        <ul class="works__list">
-            <li class="works__link"></li>
-            <li class="works__link"></li>
-            <li class="works__link"></li>
-        </ul>
-    </section>
-    <footer class="footer" id="footer"></footer>
     <script src="./index.js"></script>
 </body>
+
 </html>
