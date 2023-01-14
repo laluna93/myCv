@@ -8,18 +8,115 @@
     <title>MyCv</title>
 </head>
 <body>
-    <header class="header">
-        <div class="header__info">
-            <h1 class="header__title">Anna <br> Zverintseva</h1>
-            <div  class="header__wrapper-contacts">
-                <h2 class="header__title-contacts">Contacts:</h2>
-                <ul class="header__contacts">
-                    <li>phone: 11111111</li>
-                    <li>mail: @mail</li>
-                </ul>
+
+    <header class="header container">
+        <div class="header__personal-info">
+            <h1 class="header__name">ANNA <br> ZVERINTSEVA</h1>
+            <span class="header__vacancy">FRONTEND DEVELOPER</span>
+        </div>
+        <div class="header__contacts">
+        <div class="header__contact">
+            <div class="header__wrapper-contact">
+                <h3 class="header__title-contact">PHONE</h3>
+                +12345678
+            </div>
+            <img class="header__img" src="./assets/svg/phone.svg" width="50" alt="icon phone">
+        </div>
+        <div class="header__contact">
+            <div class="header__wrapper-contact">
+                <h3 class="header__title-contact">MAIL</h3>
+                aaaa@mail.ru
+            </div>
+            <img class="header__img" src="./assets/svg/mail.svg" width="50" alt="icon mail">
+        </div>
+        <div class="header__contact">
+            <div class="header__wrapper-contact">
+                <h3 class="header__title-contact">ADDRESS</h3>
+                Russia, Togliatti
+            </div>
+            <img class="header__img" src="./assets/svg/map-marker.svg" width="50" alt="icon map marker">
+        </div>
+    </div>
+    <h2 class="header__title">RESUME</h2>
+    </header>
+
+    <section class="main container">
+        <div class="main__education">
+            <div class="main__wrapper-title">
+                <h2 class="main__title-education">EDUCATION</h2>
+                <img class="main__img" src="./assets/svg/education.svg" width="50" alt="icon education">
+            </div>
+            <ul class="main__education-list">
+                <li class="main__education-type">
+                    2016
+                    <h2 class="main__education-type-title">RGSU</h2>
+                    finance and credit
+                </li>
+                <li class="main__education-type">
+                    March 2022
+                    <h2 class="main__education-type-title">Rollings Scopes School</h2>
+                    JavaScript/Front-end
+                </li>
+                <li class="main__education-type">
+                    September 2022
+                    <h2 class="main__education-type-title">Rollings Scopes School</h2>
+                    Angular
+                </li>
+            </ul>
+        </div>
+        <div class="main__about-me">
+            <div class="main__wrapper-title">
+                <h2 class="main__title-about-me">ABOUT ME</h2>
+                <img class="main__img_about-me" src="./assets/svg/profile.svg" width="50"  alt="icon person">
+            </div>
+            <div class="main__text">
+                <span class="main__text-start">Hi, my name is Anna</span>
+                <br>
+                I am an enthusiastic Frontend developer with little freelance experience, where I have developed several websites using static html layout, css, javascript. 
+                Basically, I get development experience by setting tasks for myself and completing them.
+                I also gained a lot of experience after studying at the RS school, at the frontend development course.
+                Worked on projects using javascript, typescript, angular, react.
+                Here I learned to understand someone else's code while working on team projects, which I consider a very important skill,
+                because I want to work in a team. 
+                I am a responsible person and I am serious about solving the tasks set for myself. 
+                "Never give up!" my slogan for life is no matter what difficulties you have to face.
+                
             </div>
         </div>
-        <div class="header__about-me"> 
+    </section>
+<section class="works-skills container">
+<div class="works-skills__skills">
+
+    <div class="works-skills__skills-professional">
+        <div  class="works-skills__wrapper-title wrapper-title">
+            <h2 class="works-skills__title wrapper-title__title-black">Skills</h2>
+            <img class="works-skills__img-skills" src="./assets/svg/skills.svg" width="50" alt="icon skills">
+        </div>
+        <ul class="works-skills__list">
+            <li class="works-skills__skill">JavaScript</li>
+            <li class="works-skills__skill">TypeScript</li>
+            <li class="works-skills__skill">React</li>
+            <li class="works-skills__skill">Angular</li>
+            <li class="works-skills__skill">HTML</li>
+            <li class="works-skills__skill">CSS</li>
+            <li class="works-skills__skill">SCSS</li>
+            <li class="works-skills__skill">RxJs</li>
+            <li class="works-skills__skill">NgRx</li>
+            <li class="works-skills__skill">Webpack</li>
+            <li class="works-skills__skill">GIT</li>
+            <li class="works-skills__skill">Team Work</li>
+        </ul> 
+    </div>
+
+</div>
+<div class="works-skills__projects">
+    <div class="works-skills__wrapper-title wrapper-title">
+        <h2 class="works-skills__title wrapper-title__title-white">Projects</h2>
+        <img class="works-skills__img-project" src="./assets/svg/project.svg" width="50" alt="icon projects">
+    </div>
+</div>
+</section>
+    <!-- 
             <span class="header__text">Hi, my name is Anna</span>
             <br>
             I am an enthusiastic Frontend developer with little freelance experience, where I have developed several websites using static html layout, css, javascript. 
@@ -38,45 +135,7 @@
             так как хочу работать в команде. 
             Я ответственный человек и серьезно подхожу к решению поставленных перед собой задач. 
             "Никогда не сдаваться!" мой лозунг по жизни с какими бы трудностями не пришлось столкнуться. -->
-            </div>
-    </header>
-    <section class="main">
-        <div class="main__left-block">
-            <div class="skills">
-                <h2 class="skills__title">Skills</h2>
-                <ul class="skills__list">
-                    <li class="skills__link">JavaScript</li>
-                    <li class="skills__link">TypeScript</li>
-                    <li class="skills__link">React</li>
-                    <li class="skills__link">Angular</li>
-                    <li class="skills__link">HTML</li>
-                    <li class="skills__link">CSS</li>
-                    <li class="skills__link">SCSS</li>
-                    <li class="skills__link">RxJs</li>
-                    <li class="skills__link">NgRx</li>
-                    <li class="skills__link">Webpack</li>
-                    <li class="skills__link">GIT</li>
-                    <li class="skills__link">Team Work</li>
-                </ul> 
-            </div> 
-            <div class="education">
-                <h2 class="skills__title">Education</h2>
-                <div class="education__wrapper">
-                    <div>
-                        <h2>RGSU</h2>
-                        <div>finance and credit</div>
-                    </div>
-                    <div>
-                        <h2>Rollings Scopes School</h2>
-                        Angular, September 2022 - December 2022
-                    </div>
-                    <div>
-                        <h2>Rollings Scopes School</h2>
-                        JavaScript/Front-end, March 2022 - September 2022
-
-                    </div>
-
-                </div>
+            <!-- </div>
             </div>
             <div class="language">
                 <h2 class="language__title">Language</h2>
@@ -114,7 +173,7 @@
                  <div class="projects__git"><a class="projects__link" href="https://github.com/laluna93">My GitHub</a></div>
             </div>
         </div>
-    </section>
+    </section> -->
     <script src="./index.js"></script>
 </body>
 
