@@ -110,11 +110,11 @@
         border-bottom: 1px solid #fff;
         padding-top: 10px;
     }
-    &__img {
-        background-color: #e7bebe;
-        border-top: 1px solid #fff;
-        border-bottom: 1px solid #fff;
-    }
+    // &__img {
+    //     background-color: #e7bebe;
+    //     border-top: 1px solid #fff;
+    //     border-bottom: 1px solid #fff;
+    // }
     &__education-list {
         color: #fff;
         list-style: none;
@@ -136,7 +136,7 @@
         padding-left: 50px;
         padding-bottom: 50px;
     }
-    &__title-about-me {
+    &__title {
         width: 55%;
         max-width: 250px;
         border-top: 1px solid #524f4f;
@@ -145,22 +145,23 @@
         color: #524f4f;
         letter-spacing: 0.06em;
     }
-    &__img_about-me {
+    &__img {
         border: 1px solid #524f4f;
         background-color: #e7bebe;
     }
     &__text {
         width: 90%;
         font-size: 18px;
-        font-style: italic;
         color: #524f4f;
         letter-spacing: 0.06em;
+        text-align: justify;
     }
     &__text-start {
         font-size: 20px;
         font-style: normal;
         letter-spacing: 0.05em;
         font-weight: 600;
+        font-style: italic;
     }
 }
 
@@ -176,7 +177,7 @@
         display: flex;
         
     }
-    &__title-skills {
+    &__title {
         letter-spacing: 0.06em;
     }
     &__projects {
@@ -204,6 +205,38 @@
         border: 1px solid #524f4f;
         background-color: #e7bebe;
     }
+    &__project {
+        list-style: none;
+        color: #524f4f;
+        width: 320px;
+        border-top: 1px solid #524f4f;
+        text-align: center;
+    }
+    &__projects-list {
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    &__project-img {
+        border-radius: 25%;
+        margin: 10px 0;
+    }
+    &__project-text {
+        border: 1px solid #524f4f;
+        min-height: 47px;
+        background-color: #e7bebe;
+    }
+    &__language {
+        color: #fff;
+    }
+    &__skills-professional { 
+        padding-bottom: 50px
+    }
+    &__skill_language {
+        font-size: 24px;
+    }
 }
 
 
@@ -230,151 +263,41 @@
         letter-spacing: 0.06em;
     }
 }
+// education
+.title-black {
+    width: 75%;
+    max-width: 250px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding-top: 10px;
+}
+.wrapper-title-black {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    display: flex;
+    font-size: 18px;
+    color: #fff;  
+}
+
+.img-black {
+    background-color: #e7bebe;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff; 
+}
+// about-me
+.title-black {
+    width: 55%;
+    max-width: 250px;
+    border-top: 1px solid #524f4f;
+    border-bottom: 1px solid #524f4f;
+    padding-top: 10px;
+    color: #524f4f;
+    letter-spacing: 0.06em;
+}
 
 
-// .header {
-//     max-width: 1280px;
-//     margin: 0 auto;
-//     display: flex;
-//     justify-content: center;
-//     &__title {
-//         font-size: 50px;
-//         display: flex;
-//         align-items: center;
-//     }
-//     &__contacts {
-//         display: flex;
-//         list-style: none;
-//         gap: 20px;
-//         font-size: 18px;
-//         padding: 0;
-//     }
-//     &__text {
-//             font-size: 25px;
-//     }
-//     &__info {
-//         width: 40%;
 
-//         display: flex;
-//         flex-direction: column;
-//         gap: 25px;
-//         justify-content: center;
-//         border-right: 5px solid #cbcbcbbd;
-//         background-color: #000;
-//         color: #fff;
-//         padding-left: 35px;
-//     }
-//     &__about-me {
-//         width: 60%;
-//         font-size: 18px;
-//         letter-spacing: 0.06em;
-//         padding: 30px;
-//         background-color: #ffc206bd;
-//         color: rgb(0, 0, 0);
-//         border-bottom: 10px solid #a19d9d;
-//     }
-//     &__title-contacts {
-//         background-color: #cbcbcbbd;
-//         color: rgb(0, 0, 0);
-//         font-size: 30px;
-//         padding-left: 15px;
-//     }
-// }
-
-// .main {
-//     max-width: 1280px;
-//     margin: 0 auto;
-//     display: flex;
-//     &__left-block {
-//         width: 40%;
-//         min-width: 270px;
-//         border-right: 5px solid #ffc206bd;
-//     }
-//     &__right-block {
-//         width: 60%;
-//     }
-// }
-
-// .skills {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     &__title{
-//         font-size: 30px;
-//         padding-left: 15px;
-//         background-color: #ffc206bd;
-//         color: rgb(0, 0, 0);
-//         padding-top: 20px;
-//     }
-//     &__list {
-//         max-width: 100%;
-//         display: flex;
-//         list-style: none;
-//         gap: 18px;
-//         flex-wrap: wrap;
-//         font-size: 20px;
-//         padding: 20px;
-//         background-color: #000;
-//         color: #fff;
-//     }
-// }
-
-// .education {
-//     &__wrapper {
-//         display: flex;
-//         flex-direction: column;
-//         gap: 20px;
-//         padding: 15px 0 15px 25px;
-//         background-color: #000;
-//         color: #fff;
-
-//     }
-// }
-
-// .language {
-//     background-color: #a19d9d;
-//     color: #fff;
-//     padding-left: 15px;
-//     &__title {
-//         padding-top: 20px;
-//     }
-// }
-
-// .projects {
-//     &__project {
-//         display: flex;
-//         align-items: center;
-//         background-color: #ffc206bd;
-//         color: rgb(0, 0, 0);
-//     }
-//     &__img {
-//         width: 300px;
-//     }
-//     &__title {
-//         font-size: 30px;
-//         padding-left: 15px;
-//         background-color: #a19d9d;
-//         color: #fff;
-//         padding-top: 20px;
-//     }
-//     &__wrapper {
-//         display: flex;
-//         flex-wrap: wrap;
-//         flex-direction: column;
-//         justify-content: space-around;
-//     }
-//     &__git {
-//         background-color: #a19d9d;
-//         color: rgb(255, 255, 255);
-//         font-size: 35px;
-//         padding: 25px;
-//     }
-//     &__link {
-//         text-decoration: none;
-//         color: rgb(255, 255, 255);
-//     }
-// }
-
-// .title {
-//     min-width: 185px;
-// }
+.img-white {
+    border: 1px solid #524f4f;
+    background-color: #e7bebe;  
+}
