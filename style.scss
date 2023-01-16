@@ -117,6 +117,7 @@
         color: #524f4f;
         letter-spacing: 0.06em;
         text-align: justify;
+        position: relative;
     }
     &__text-start {
         font-size: 20px;
@@ -310,17 +311,27 @@
         }
         &__text {
             margin: 0 auto;
+            padding-left: 0;
         }
     }
     .wrapper-content {
         width: 100%;
         text-align: center;
+        padding-left: 0;
+        &__title {
+            margin-left: 15px;
+        }
+        &__wrapper-title {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
     }
     .wrapper-content-white {
-        width: 97%;
-        padding-left: 25px;
+        width: 100%;
+        padding-left: 0;
         &__title {
             width: 75%;
+            margin-left: 15px;
         }
     }
     .works-skills {
@@ -339,6 +350,9 @@
         }
         &__project-text {
             min-width: 270px;
+        }
+        &__list {
+            padding-bottom: 0;
         }
     }
 }

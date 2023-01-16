@@ -162,6 +162,7 @@
   color: #524f4f;
   letter-spacing: 0.06em;
   text-align: justify;
+  position: relative;
 }
 
 .main__text-start {
@@ -412,17 +413,27 @@
   }
   .main__text {
     margin: 0 auto;
+    padding-left: 0;
   }
   .wrapper-content {
     width: 100%;
     text-align: center;
+    padding-left: 0;
+  }
+  .wrapper-content__title {
+    margin-left: 15px;
+  }
+  .wrapper-content__wrapper-title {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   .wrapper-content-white {
-    width: 97%;
-    padding-left: 25px;
+    width: 100%;
+    padding-left: 0;
   }
   .wrapper-content-white__title {
     width: 75%;
+    margin-left: 15px;
   }
   .works-skills {
     -webkit-box-orient: vertical;
@@ -451,6 +462,9 @@
   }
   .works-skills__project-text {
     min-width: 270px;
+  }
+  .works-skills__list {
+    padding-bottom: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
