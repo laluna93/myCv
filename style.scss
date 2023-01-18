@@ -3,10 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 .container {
     max-width: 1280px;
     margin: 0 auto;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -38,13 +40,11 @@
             right: -48px;
             top: 74px;
         }
-
     }
     &__name {
         color: #524f4f;
         padding: 25px 0 15px 50px;
         font-size: 50px;
-        
     }
     &__vacancy {
         background-color: #fff;
@@ -110,7 +110,6 @@
         font-style: normal;
         font-size: 20px;
     }
-
     &__text {
         width: 90%;
         font-size: 18px;
@@ -130,17 +129,14 @@
 
 .works-skills {
     display: flex;
-
     &__wrapper-projects {
         border-left: 1px solid #524f4f;
-
     }
     &__projects {
         width: 60%;
         padding-left: 50px;
         padding-bottom: 50px;
     }
-
     &__list {
         color: #fff;
         list-style: none;
@@ -194,11 +190,9 @@
         text-align: center;
         padding: 0 10px;
     }
-
     &__skill_language {
         font-size: 24px;
     }
-
     &__project-title {
         padding: 10px;
     }
@@ -209,7 +203,6 @@
     padding-left: 25px;
     padding-bottom: 50px;
     background-color: #524f4f;
-    
     &__wrapper-title {
         padding-top: 40px;
         padding-bottom: 20px;
@@ -254,6 +247,23 @@
     &__img {
         border: 1px solid #524f4f;
         background-color: #e7bebe;  
+    }
+    &__github {
+        font-size: 55px;
+        letter-spacing: 0.1em;
+    }
+    &__github-link {
+        text-decoration: none;
+        background-color: #e7bebe;
+        width: 100%;
+        color: #524f4f;
+        display: block;
+        text-align: center;
+        transition: all 0.6s;
+        &:hover {
+            background-color: #524f4f;
+            color: #e7bebe;
+        }
     }
 }
 
@@ -302,6 +312,7 @@
             text-align: center;
         }
     }
+
     .main {
         flex-direction: column;
         justify-content: center;
@@ -314,6 +325,7 @@
             padding-left: 0;
         }
     }
+
     .wrapper-content {
         width: 100%;
         text-align: center;
@@ -326,6 +338,7 @@
             padding-bottom: 30px;
         }
     }
+
     .wrapper-content-white {
         width: 100%;
         padding-left: 0;
@@ -334,6 +347,7 @@
             margin-left: 15px;
         }
     }
+
     .works-skills {
         flex-direction: column;
         &__wrapper-projects {
